@@ -20,6 +20,6 @@ export const useGame = (
 ) =>
   useData<Game>(
     "/games",
-    { params: { genres: gameQuery.genre?.id, platform: gameQuery.platform?.id } },
+    { params: { genres: gameQuery.genre?.id, parent_platforms: gameQuery.platform?.id } },
     [gameQuery]
   );
