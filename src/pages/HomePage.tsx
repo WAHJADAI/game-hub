@@ -7,7 +7,7 @@ import PlatformSelector from '../components/PlatformSelector'
 import SortSelector from '../components/SortSelector'
 
 
-export const Homepage = () => {
+const Homepage = () => {
   return (
     <>
         <Grid
@@ -44,3 +44,4 @@ export const Homepage = () => {
     </>
   )
 }
+export default Homepage
