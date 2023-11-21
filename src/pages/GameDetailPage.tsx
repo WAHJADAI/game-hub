@@ -1,7 +1,11 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
-export const GameDetailPage = () => {
+ const GameDetailPage = () => {
+    const {slug}= useParams()
   return (
     <div>GameDetailPage</div>
   )
 }
+
+export default GameDetailPage
