@@ -5,7 +5,7 @@ import{BsGlobe}from 'react-icons/bs'
 
 import { HStack, Icon, Text } from '@chakra-ui/react'
 import {IconType} from 'react-icons'
-import { Platform } from '../hooks/usePlatforms'
+import { Platform } from "../entity/Platform"
 
 interface Props{
     platform:Platform[]
