@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import APIClient from "../service/api-client";
-import { Trailer } from "../entity/Trailer";
+import  Trailer  from "../entity/Trailer";
 
 
 const useTrailer =(gameId:number)=>
